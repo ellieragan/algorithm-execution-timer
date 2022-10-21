@@ -9,5 +9,9 @@ make run
 for dir in */; do
   
   echo $dir
-  ./run $dir
+  ./run $dir 25
   done
+
+gcc -g elliptic.c -o elliptic -lcrypto
+echo elliptic/
+./elliptic

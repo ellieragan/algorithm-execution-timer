@@ -16,8 +16,10 @@ run: $(OBJS)
 
 clean:
 	rm -f run
+	rm -f elliptic
 	rm -f *~ *.o
 	rm -rf *.dSYM
 	rm -f core
 	rm -f vgcore.*
 	rm all_files.out
+	rm -f *.swp
