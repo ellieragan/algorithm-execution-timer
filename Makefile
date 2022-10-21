@@ -16,6 +16,7 @@ run: $(OBJS)
 
 clean:
 	rm -f run
+	rm -f elliptic
 	rm -f *~ *.o
 	rm -rf *.dSYM
 	rm -f core
